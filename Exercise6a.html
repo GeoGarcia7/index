@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<page title> Exercise6a</page title>
+<style>
+#t01 {
+  width: 100%;    
+ border-width: thin thick thin thin;
+}
+#t02 {
+  width: 100%;    
+ border-width: thin thick thin thin;
+}
+#t03 {
+  width: 100%;    
+ border-width: thin thick thick thin;
+}
+#t04 {
+  width: 100%;    
+ border-width: thin thin thick thin;
+}
+#t07 {
+  border-spacing: 20px;
+}
+</style>
+
+</head>
+<body>
+
+<h2>Basic Table</h2>
+
+<p>Table A:</p>
+
+<table width="100px" border="1px">
+<tr>
+<td>A</td>
+<td>B</td>
+<td>C</td>
+</tr>
+<tr>
+<td>D</td>
+<td>E</td>
+<td>F</td>
+</tr>
+</table>
+
+<br>
+
+<p>Table B:</p>
+
+<table width="50px" border="1px" height="100">
+<tr>
+<th>A</th>
+<th id=t01>D</th>
+</tr>
+<tr>
+<th>B</th>
+<th id=t02>E</th>
+</tr>
+<tr>
+<th id=t04>C</th>
+<th id=t03>F</th>
+</tr>
+</table>
+
+<br>
+
+<p>Table C:</p>
+
+<table width="175px" border="1px" height="10">
+<tr>
+<td rowspan="3" align="center">Title goes here</td>
+<td>A</td>
+<td >D</td>
+</tr>
+<tr>
+<td>B</td>
+<td>E</td>
+</tr>
+<tr>
+<td>C</td>
+<td>F</td>
+</tr>
+</table>
+
+<br>
+
+<p>Table D:</p>
+
+<table width="150px" border="1px">
+<tr>
+<td align="center" colspan="3">Title goes here</td>
+</tr>
+<tr>
+<td>A</td>
+<td>C</td>
+<td>E</td>
+</tr>
+<tr>
+<td>B</td>
+<td>D</td>
+<td>F</td>
+</tr>
+</table>
+
+<br>
+
+<p>Table E:</p>
+
+<table width="400px" border="2px" height="200">
+<tr>
+<td rowspan="3" align="center">Title goes here</td>
+<th>A</th>
+<th>D</th>
+</tr>
+<tr>
+<th>B</th>
+<th>E</th>
+</tr>
+<tr>
+<th>C</th>
+<th>F</th>
+</tr>
+</table>
+
+<br>
+
+<p>Table F:</p>
+
+<table id=t07 width="150px" border="1px">
+<tr>
+<td align="center" colspan="3">Title goes here</td>
+</tr>
+<tr>
+<td >A</td>
+<td>C</td>
+<td>E</td>
+</tr>
+<tr>
+<td>B</td>
+<td>D</td>
+<td>F</td>
+</tr>
+</table>
+
+<br>
+
+<p>Table G:</p>
+
+<table width="200px" border="2px">
+<tr>
+<td colspan="3" align="center">Title goes here</td>
+<td align="center">A</td>
+<td align="center">B</td>
+</tr>
+
+<tr>
+<td rowspan="3" align="left">C</td>
+<td align="center">D</td>
+<td align="center">E</td>
+<td align="center">F</td>
+<td align="center">G</td>
+</tr>
+
+<tr>
+<td align="center">H</td>
+<td colspan="2" align="center">I</td>
+<td rowspan="2" align="center">J</td>
+</tr>
+
+<tr>
+<td align="center">K</td>
+<td align="center">L</td>
+<td align="center">M</td>
+
+</tr>
+
+<tr>
+<td align="right">N</td>
+<td colspan="4" align="center">O</td>
+
+</tr>
+</table>
+
+
+
+
+
+
+</body>
+</html>
